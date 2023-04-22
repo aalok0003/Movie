@@ -60,7 +60,7 @@ movies_list= pickle.load(open("movielist.pkl",'rb'))
 sorted_similar_movie_list= pickle.load(open("sorted_similar_movie.pkl",'rb'))
 title_from_index= pickle.load(open("title_from_index.pkl",'rb'))
 similarity_score= pickle.load(open("similarity_score.pkl",'rb'))
-similarity= pickle.load(open("similarity.pkl",'rb'))
+#similarity= pickle.load(open("similarity.pkl",'rb'))
 movies_data= pickle.load(open("movies_data.pkl",'rb'))
 
 input_movie_index= pickle.load(open("input_movie_index.pkl",'rb'))
